@@ -208,131 +208,139 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 // ];
 
 // /*
-export const SkillsInfo = [
-  {
-    title: 'Languages',
-    skills: [
-    { name: 'JavaScript', logo: javascriptLogo },
-    { name: 'Python', logo: pythonLogo },
-    { name: 'Java', logo: javaLogo },
-    { name: 'SQL', logo: sqlLogo },
-    { name: 'HTML', logo: htmlLogo },
-    { name: 'XML', logo: xmlLogo },
-    { name: 'JSON', logo: jsonLogo },
-    { name: 'React', logo: reactLogo },
-    { name: 'Typescript', logo: typescriptLogo },
-  ],
-  },
-  {
-    title: 'Backend & APIs',
-    skills: [
-      { name: 'Node.js', logo: nodejsLogo },
-      { name: 'Express.js', logo: expressLogo },
-      { name: 'RESTful API', logo: restapiLogo },
-      { name: 'Swagger (OpenAPI)', logo: swaggerLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Microservices', logo: microservicesLogo },
-      { name: 'Serverless', logo: serverlessLogo },
-    ],
-  },
-
-  {
-    title: 'Cloud & DevOps',
-    skills: [
-      { name: 'AWS', logo: awsLogo },
-      { name: 'EC2', logo: ec2Logo },
-      { name: 'Lambda', logo: lambdaLogo },
-      { name: 'S3', logo: s3Logo },
-      { name: 'API Gateway', logo: apigatewayLogo },
-      { name: 'CodeBuild', logo: codebuildLogo },
-      { name: 'CodeCommit', logo: codecommitLogo },
-      { name: 'Batch', logo: batchLogo },
-      { name: 'CloudFormation', logo: cloudformationLogo },
-      { name: 'RDS', logo: rdsLogo },
-      { name: 'SNS', logo: snsLogo },
-      { name: 'SQS', logo: sqsLogo },
-      { name: 'IAM', logo: iamLogo },
-      { name: 'CloudWatch', logo: cloudwatchLogo },
-      { name: 'CloudFront', logo: cloudfrontLogo },
-      { name: 'Heroku', logo: herokuLogo },
-      { name: 'Docker', logo: dockerLogo },
-      { name: 'GitHub Actions', logo: githubactionsLogo },
-      { name: 'Jenkins', logo: jenkinsLogo },
-      // { name: 'CircleCI', logo: circleciLogo },
-      { name: 'CI/CD', logo: cicdLogo },
-      { name: 'Infrastructure as Code (IaC)', logo: iacLogo },
-    ],
-  },
-  {
-    title: 'Blockchain',
-    skills: [
-      { name: 'Ethereum', logo: ethereumLogo },
-      { name: 'Hyperledger Fabric', logo: hyperledgerLogo },
-      { name: 'Solidity', logo: solidityLogo },
-      { name: 'Truffle', logo: truffleLogo },
-      { name: 'Hardhat', logo: hardhatLogo },
-      { name: 'Ganache', logo: ganacheLogo },
-      { name: 'Remix IDE', logo: remixLogo },
-      { name: 'IPFS', logo: ipfsLogo },
-      { name: 'Web3.js', logo: web3jsLogo },
-      { name: 'Geth', logo: gethLogo },
-      { name: 'MetaMask', logo: metamaskLogo },
-      { name: 'ERC-20', logo: erc20Logo },
-      { name: 'ERC-721', logo: erc721Logo },
-    ],
-  },
-   {
-    title: 'Tools & Collaboration',
-    skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'JIRA', logo: jiraLogo },
-      { name: 'Confluence', logo: confluenceLogo },
-      { name: 'New Relic', logo: newrelicLogo },
-      { name: 'Agile Development', logo: agileLogo },
-      { name: 'Scrum', logo: scrumLogo },
-    ],
-  },
-     {
-    title: 'Databases',
-    skills: [
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'PostgreSQL', logo: postgresqlLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'DynamoDB', logo: dynamodbLogo },
-      { name: 'OrbitDB', logo: orbitdbLogo },
-      { name: 'SQLite', logo: sqliteLogo },
-    ],
-  },
-  {
-    title: 'Testing',
-    skills: [
-      { name: 'Mocha', logo: mochaLogo },
-      { name: 'Chai', logo: chaiLogo },
-      { name: 'Jest', logo: jestLogo },
-
-    ],
-  },
+  export const SkillsInfo = [
     {
-    title: 'Frontend & Styling',
-    skills: [
-      { name: 'CSS', logo: cssLogo },
-      { name: 'jQuery', logo: jqueryLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
-      { name: 'Tailwind CSS', logo: tailwindLogo },
-    ],
-  },
+      title: 'Languages',
+      skills: [
+        { name: 'JavaScript', logo: javascriptLogo },
+        { name: 'TypeScript', logo: typescriptLogo },
+        { name: 'Python', logo: pythonLogo },
+        { name: 'Java', logo: javaLogo },
+      ],
+    },
+    {
+      title: 'Web Development',
+      skills: [
+        { name: 'Node.js', logo: nodejsLogo },
+        { name: 'React', logo: reactLogo },
+        { name: 'jQuery', logo: jqueryLogo },
+        { name: 'HTML', logo: htmlLogo },
+        { name: 'CSS', logo: cssLogo },
+        { name: 'Bootstrap', logo: bootstrapLogo },
+        { name: 'Tailwind CSS', logo: tailwindLogo },
+        { name: 'Express.js', logo: expressLogo },
+        { name: 'RESTful API', logo: restapiLogo },
+        { name: 'Microservices', logo: microservicesLogo },
+        { name: 'Serverless', logo: serverlessLogo },
+      ],
+    },
+    {
+      title: 'API & Integration Tools',
+      skills: [
+        { name: 'Postman', logo: postmanLogo },
+        { name: 'Swagger (OpenAPI)', logo: swaggerLogo },
+      ],
+    },
+    {
+      title: 'Databases',
+      skills: [
+        { name: 'SQL', logo: sqlLogo },
+        { name: 'MongoDB', logo: mongodbLogo },
+        { name: 'PostgreSQL', logo: postgresqlLogo },
+        { name: 'MySQL', logo: mysqlLogo },
+        { name: 'SQLite', logo: sqliteLogo },
+        { name: 'DynamoDB', logo: dynamodbLogo },
+        { name: 'OrbitDB', logo: orbitdbLogo },
+      ],
+    },
+    {
+      title: 'Cloud',
+      skills: [
+        { name: 'AWS', logo: awsLogo },
+        { name: 'EC2', logo: ec2Logo },
+        { name: 'Lambda', logo: lambdaLogo },
+        { name: 'S3', logo: s3Logo },
+        { name: 'API Gateway', logo: apigatewayLogo },
+        { name: 'RDS', logo: rdsLogo },
+        { name: 'SNS', logo: snsLogo },
+        { name: 'SQS', logo: sqsLogo },
+        { name: 'IAM', logo: iamLogo },
+        { name: 'CloudFront', logo: cloudfrontLogo },
+        { name: 'CloudFormation', logo: cloudformationLogo },
+        { name: 'CloudWatch', logo: cloudwatchLogo },
+        { name: 'Batch', logo: batchLogo },
+      ],
+    },
+    {
+      title: 'DevOps & CI/CD',
+      skills: [
+        { name: 'Git', logo: gitLogo },
+        { name: 'GitHub', logo: githubLogo },
+        { name: 'Docker', logo: dockerLogo },
+        { name: 'Jenkins', logo: jenkinsLogo },
+        { name: 'GitHub Actions', logo: githubactionsLogo },
+        { name: 'CodeBuild', logo: codebuildLogo },
+        { name: 'CodeCommit', logo: codecommitLogo },
+        { name: 'CI/CD', logo: cicdLogo },
+        { name: 'Infrastructure as Code (IaC)', logo: iacLogo },
+        { name: 'Heroku', logo: herokuLogo },
+        { name: 'Netlify', logo: herokuLogo },
+      ],
+    },
+    {
+      title: 'Blockchain & Web3',
+      skills: [
+        { name: 'Ethereum', logo: ethereumLogo },
+        { name: 'Solidity', logo: solidityLogo },
+        { name: 'Hyperledger Fabric', logo: hyperledgerLogo },
+        { name: 'Truffle', logo: truffleLogo },
+        { name: 'Hardhat', logo: hardhatLogo },
+        { name: 'Ganache', logo: ganacheLogo },
+        { name: 'Remix IDE', logo: remixLogo },
+        { name: 'Web3.js', logo: web3jsLogo },
+        { name: 'Geth', logo: gethLogo },
+        { name: 'MetaMask', logo: metamaskLogo },
+        { name: 'IPFS', logo: ipfsLogo },
+        { name: 'ERC-20', logo: erc20Logo },
+        { name: 'ERC-721', logo: erc721Logo },
+      ],
+    },
+    {
+      title: 'Testing & Quality Assurance',
+      skills: [
+        { name: 'Mocha', logo: mochaLogo },
+        { name: 'Chai', logo: chaiLogo },
+        { name: 'Jest', logo: jestLogo },
+      ],
+    },
+    {
+      title: 'Development & Monitoring Tools',
+      skills: [
 
-  //  {
-  //   title: 'Operating Systems',
-  //   skills: [
-  //     { name: 'Linux (Ubuntu)', logo: ubuntuLogo },
-  //     { name: 'macOS', logo: macosLogo },
-  //     { name: 'Windows', logo: windowsLogo },
-  //   ],
-  // },
-];
+        { name: 'VS Code', logo: vscodeLogo },
+        { name: 'Jupyter Notebook', logo: vscodeLogo },
+        { name: 'New Relic', logo: newrelicLogo },
+      ],
+    },
+    {
+      title: 'Project & Collaboration',
+      skills: [
+        { name: 'JIRA', logo: jiraLogo },
+        { name: 'Confluence', logo: confluenceLogo },
+        { name: 'Agile Development', logo: agileLogo },
+        { name: 'Scrum', logo: scrumLogo },
+      ],
+    }
+
+    //  {
+    //   title: 'Operating Systems',
+    //   skills: [
+    //     { name: 'Linux (Ubuntu)', logo: ubuntuLogo },
+    //     { name: 'macOS', logo: macosLogo },
+    //     { name: 'Windows', logo: windowsLogo },
+    //   ],
+    // },
+  ];
 
 
 // */
