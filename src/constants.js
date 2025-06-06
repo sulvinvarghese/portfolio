@@ -128,14 +128,14 @@ import windowsLogo from './assets/skill_logo/windows.png';
 
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
+import webverseLogo from './assets/company_logo/gla_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
-// Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import coventryLogo from './assets/company_logo/coventry.webp';
+import ktuLogo from './assets/company_logo/apj.webp';
+import keralaLogo from './assets/company_logo/uok.png'; // Make sure this exists
+
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -218,6 +218,15 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
         { name: 'Java', logo: javaLogo },
       ],
     },
+        {
+      title: 'Project & Collaboration',
+      skills: [
+        { name: 'JIRA', logo: jiraLogo },
+        { name: 'Confluence', logo: confluenceLogo },
+        { name: 'Agile Development', logo: agileLogo },
+        { name: 'Scrum', logo: scrumLogo },
+      ],
+    },
     {
       title: 'Web Development',
       skills: [
@@ -231,26 +240,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
         { name: 'Express.js', logo: expressLogo },
         { name: 'RESTful API', logo: restapiLogo },
         { name: 'Microservices', logo: microservicesLogo },
-        { name: 'Serverless', logo: serverlessLogo },
-      ],
-    },
-    {
-      title: 'API & Integration Tools',
-      skills: [
-        { name: 'Postman', logo: postmanLogo },
-        { name: 'Swagger (OpenAPI)', logo: swaggerLogo },
-      ],
-    },
-    {
-      title: 'Databases',
-      skills: [
-        { name: 'SQL', logo: sqlLogo },
-        { name: 'MongoDB', logo: mongodbLogo },
-        { name: 'PostgreSQL', logo: postgresqlLogo },
-        { name: 'MySQL', logo: mysqlLogo },
-        { name: 'SQLite', logo: sqliteLogo },
-        { name: 'DynamoDB', logo: dynamodbLogo },
-        { name: 'OrbitDB', logo: orbitdbLogo },
+        { name: 'Serverless', logo: serverlessLogo }
       ],
     },
     {
@@ -306,6 +296,18 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       ],
     },
     {
+      title: 'Databases',
+      skills: [
+        { name: 'SQL', logo: sqlLogo },
+        { name: 'MongoDB', logo: mongodbLogo },
+        { name: 'PostgreSQL', logo: postgresqlLogo },
+        { name: 'MySQL', logo: mysqlLogo },
+        { name: 'SQLite', logo: sqliteLogo },
+        { name: 'DynamoDB', logo: dynamodbLogo },
+        { name: 'OrbitDB', logo: orbitdbLogo },
+      ],
+    },
+    {
       title: 'Testing & Quality Assurance',
       skills: [
         { name: 'Mocha', logo: mochaLogo },
@@ -323,14 +325,12 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       ],
     },
     {
-      title: 'Project & Collaboration',
+      title: 'API & Integration Tools',
       skills: [
-        { name: 'JIRA', logo: jiraLogo },
-        { name: 'Confluence', logo: confluenceLogo },
-        { name: 'Agile Development', logo: agileLogo },
-        { name: 'Scrum', logo: scrumLogo },
+        { name: 'Postman', logo: postmanLogo },
+        { name: 'Swagger (OpenAPI)', logo: swaggerLogo },
       ],
-    }
+    },
 
     //  {
     //   title: 'Operating Systems',
@@ -348,111 +348,167 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 //duplicate s3,confluence. add jwt,npm,OS
 
   export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Software Engineer",
-      company: "UST Global",
-      date: "June 2022 - Sept 2023",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Blockchain Consultant",
-      company: "Kottackal Business Solutions Pvt Ltd.",
-      date: "July 2020 - April 2023",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Associate Consultant",
-      company: "Kottackal Business Solutions Pvt Ltd.",
-      date: "January 2019 - August 2020",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-    {
-      id: 3,
-      img: newtonschoolLogo,
-      role: "Consultant Trainee",
-      company: "Kottackal Business Solutions Pvt Ltd.",
-      date: "July 2018 - January 2019",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
+     {
+    id: 0,
+    img: webverseLogo,
+    role: "Software Engineer",
+    company: "UST Global",
+    date: "June 2022 - Sept 2023",
+  desc: `At UST Global, I worked as a backend engineer on several large-scale enterprise solutions, but the most impactful project I contributed to was the Hero Digital Passport — a blockchain-based system developed for Hero MotoCorp to record the complete lifecycle of motorcycles. The platform was designed to ensure tamper-proof storage of critical vehicle events such as manufacturing details, ownership transfers, service history, insurance validations, and maintenance logs.
+
+  We implemented this using AWS Managed Blockchain with Hyperledger Fabric to achieve secure, decentralized, and verifiable tracking across stakeholders including manufacturers, dealerships, service centers, and insurers. My role involved designing and developing secure RESTful APIs that acted as the bridge between the off-chain services and blockchain smart contracts. I also worked on DynamoDB query optimization, AWS Lambda workflows, and CI/CD automation using GitHub Actions and Jenkins.
+
+  This project pushed me to think like a systems architect — balancing performance, security, and reliability — while collaborating with cross-functional teams. It wasn’t just a technical challenge, but a real-world opportunity to build something trustworthy, scalable, and mission-critical.`,
+
+    skills: [
+      "Node.js",
+      "AWS Lambda",
+      "DynamoDB",
+      "S3",
+      "SQS",
+      "Hyperledger Fabric",
+      "GitHub Actions",
+      "Jenkins",
+      "Jest",
+      "REST APIs"
+    ],
+  },
+  {
+    id: 1,
+    img: agcLogo,
+    role: "Blockchain Consultant",
+    company: "Kottackal Business Solutions Pvt Ltd.",
+    date: "July 2020 - April 2023",
+    desc: `In this role, I led the backend development of multiple decentralized platforms while also contributing to their blockchain logic. My key focus was building reliable backend services for transaction processing, user management, and reporting — with blockchain used for enforcing trust, ownership, and tokenization.
+
+    Projects like Fleet&Queue, Upay, SurePay, and ADB Pay Events required tight integration between Node.js APIs and Ethereum smart contracts. I designed service orchestration layers that handled payment processing, token flows, and dynamic role-based controls. On the blockchain side, I helped develop ERC20 contracts, multisig approval mechanisms, and contract-based revenue distribution flows.
+
+    I also integrated IPFS for distributed content delivery and built utility microservices to bridge Web2 and Web3. These systems were deployed into live environments with complex user hierarchies and real-time data sync between off-chain and on-chain components. My work spanned REST API design, smart contract integration, CI/CD, and scalable backend architecture.`,
+        skills: [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Solidity",
+          "Ethereum",
+          "Web3.js",
+          "IPFS",
+          "JWT Auth",
+          "Multisig Wallets",
+          "ERC20",
+        ],
+      },
+      {
+        id: 2,
+        img: newtonschoolLogo,
+        role: "Associate Consultant",
+        company: "Kottackal Business Solutions Pvt Ltd.",
+        date: "January 2019 - August 2020",
+        desc: `As an Associate Consultant, I handled full lifecycle backend development for platforms like PeerFund and Sports. I developed APIs to support user sessions, investor profiles, token-based access, and secure transaction flows. My role involved modeling and querying MongoDB collections, implementing Node.js middleware for validation and auth, and structuring backend logic to interact with Ethereum smart contracts.
+
+    While backend remained my main focus, I also contributed to Solidity development, deploying contracts on testnets, and integrating Web3.js into the backend service layer. My work ensured seamless communication between UI, backend, and on-chain components for features like streaming access control (Sports) and secure investment handling (PeerFund).
+
+    These projects strengthened my understanding of backend-led blockchain architectures — combining real-time validation, smart contract hooks, and scalable REST APIs.`,
+        skills: [
+          "Node.js",
+          "Express.js",
+          "Solidity",
+          "Truffle",
+          "Web3.js",
+          "MongoDB",
+          "JavaScript",
+          "Tokenization",
+          "REST APIs",
+        ],
+      },
+      {
+        id: 3,
+        img: newtonschoolLogo,
+        role: "Consultant Trainee",
+        company: "Kottackal Business Solutions Pvt Ltd.",
+        date: "July 2018 - January 2019",
+        desc: `As a Consultant Trainee, I was introduced to backend and blockchain development through projects like ADBPay, Prepaid_GB, and early DApp prototypes. My primary responsibilities included building basic backend routes, setting up database operations, and integrating smart contract functions with frontend and backend components.
+
+    I gained hands-on experience working with MetaMask, Web3.js, and IPFS, and wrote small modules for token payments, QR-based scanning, and on-chain verification. I also contributed to backend services for handling merchant sessions, transaction logs, and smart contract invocations. This role gave me a solid backend foundation with exposure to decentralized logic and helped shape my understanding of full-stack DApp development.`,
+        skills: [
+          "Node.js",
+          "Solidity",
+          "MetaMask",
+          "Web3.js",
+          "ERC20 Tokens",
+          "IPFS",
+          "JavaScript",
+          "QR Integration",
+          "Express",
+        ],
+      },
+    ];
+
   
+
+
   export const education = [
     {
       id: 0,
-      img: glaLogo,
+      img: coventryLogo,
       school: "Coventry University",
       date: "Sept 2023 - Sept 2024",
       grade: "Distinction",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+      desc: "Completed MSc Cyber Security with hands-on focus on penetration testing, threat intelligence, cloud security, and blockchain risks. The course strengthened my real-world skills in ethical hacking, digital forensics, and security auditing.",
       degree: "MSc in Cyber Security",
+      link: "https://www.coventry.ac.uk/"
     },
     {
       id: 1,
-      img: bsaLogo,
+      img: ktuLogo,
       school: "APJ Abdul Kalam Technological University",
       date: "Aug 2016 - June 2018",
       grade: "8.9 CGPA",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      desc: "Pursued MTech in Computer Science with specialization in distributed systems, machine learning, and advanced software engineering. Built scalable backend projects and explored cloud-native architectures.",
       degree: "MTech in Computer Science & Engineering",
+      link: "https://ktu.edu.in/"
     },
     {
       id: 2,
-      img: vpsLogo,
+      img: keralaLogo,
       school: "University of Kerala",
       date: "Aug 2011 - May 2015",
       grade: "7.3 CGPA",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+      desc: "Graduated with BTech in Computer Science. Gained foundational knowledge in data structures, object-oriented programming, and databases. Developed early web and Java projects during this time.",
       degree: "BTech in Computer Science & Engineering",
-    },
-   
+      link: "https://www.keralauniversity.ac.in/"
+    }
   ];
+
+
+
   
   export const projects = [
+
     {
-      id: 0,
+    id: 0,
+    title: "Hero Digital Passport",
+    description:
+      "The Hero Digital Passport is a production-ready blockchain-integrated system built for Hero MotoCorp to track the complete lifecycle of motorcycles, including manufacturing details, ownership transfers, service history, and maintenance events. As a backend engineer, I designed scalable APIs, event handling flows, and off-chain data sync mechanisms using AWS services like Lambda, S3, and DynamoDB. The platform integrates with AWS Managed Blockchain (Hyperledger Fabric) to immutably log all critical events. It provides real-time access to vehicle records for stakeholders like dealerships, service centers, and insurance providers. My work focused on secure RESTful API development, dynamic data mapping to blockchain chaincode, and optimization of off-chain data storage and retrieval.",
+    image: githubdetLogo, // Replace with Hero's actual logo if available
+    tags: [
+      "Node.js",
+      "AWS Lambda",
+      "AWS S3",
+      "AWS DynamoDB",
+      "Hyperledger Fabric",
+      "AWS Managed Blockchain",
+      "API Gateway",
+      "CI/CD (GitHub Actions, Jenkins)",
+      "Blockchain Integration",
+      "Vehicle Lifecycle Tracking",
+      "Event-driven Architecture"
+    ],
+    github: "Proprietary - Code not available",
+    webapp: "http://hdp-frontend-dev.s3-website-ap-southeast-1.amazonaws.com/login"
+  },
+
+    {
+      id: 1,
       title: "Adventure Sports",
       description:
         "The Adventure Sports App is a decentralized, blockchain-powered video platform for streaming adventure sports content. It enables sports organizations to create channels and upload videos to IPFS, with metadata and access managed via Ethereum smart contracts. Users can subscribe to channels using tokens, watch videos after ad playback, and engage in real-time chat or video calls with content providers. Advertisers can target users by sport type and location. Built with Solidity, Truffle, IPFS, and MetaMask, the app ensures secure, transparent transactions and direct interaction between users, content creators, and advertisers.",
@@ -462,7 +518,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "PeerFund",
       description:
         "Peer Fund Bonds is a decentralized asset-backed bond issuance and investment platform built on blockchain. It enables companies and banks to issue bonds directly to investors without the need for third-party approvals. Each bond is backed by due diligence and detailed offer documents outlining potential risks. Investors can explore available projects, invest using smart contracts, and track their holdings transparently. The platform simplifies traditional bond processes while ensuring trust through secure, tamper-proof blockchain records.",
@@ -472,7 +528,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       webapp: "https://csprep.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "EV-HY Charging ",
       description:
         "EV-HY Charging is a blockchain-based platform that enables electric and hydrogen vehicle (EV/HY) drivers to subscribe to charging packages, locate nearby charging stations, make payments via crypto-tokens or NFC, and track charging activity in real time. The system supports both resident and visitor user profiles and automates subscription handling, third-party fee distribution, and session reporting through Ethereum smart contracts. Users interact via a mobile-friendly interface integrated with live station mapping, while energy providers and stakeholders manage offerings and revenue splits securely on-chain.",
@@ -482,7 +538,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "GreenPoint Fleet",
       description:
         "GreenPoint Fleet is a blockchain-enabled electric vehicle (EV) charging and fleet management platform tailored for commercial and organizational fleets. It allows users to register vehicles, join fleet circles, locate nearby charging stations, and initiate charging sessions through a web app. Fleet Owners can approve driver requests, manage group charging activity, and oversee payments from a shared fleet wallet. All transactions and charging data are handled via Ethereum smart contracts using ERC20 tokens, with automatic revenue splitting among stakeholders such as EV companies and third parties. The platform includes real-time map navigation, filterable reports by user, company, or country, and administrative controls for managing vehicle types, fuel categories, and geographic zones, providing an integrated, scalable solution for coordinated EV fleet operations.",
@@ -492,7 +548,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
     {
-      id: 4,
+      id: 5,
       title: "ADB Payment Events",
       description:
         "ADB Pay Events is a blockchain-based expense reimbursement system tailored for organizational events. It enables employees and participants to register for events and submit claims for expense reimbursement, which are processed securely through a multisignature approval mechanism involving both Event Owners and Finance Managers. Claims are recorded on the Ethereum blockchain, and funds are disbursed in cryptocurrency upon dual approval. The platform ensures transparency, traceability, and controlled fund management, with email notifications for claim status updates and a full transaction history accessible to users.",
@@ -502,7 +558,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
     },
     {
-      id: 5,
+      id: 6,
       title: "Sure Payment",
       description:
         "SurePay is a blockchain-based multi-mode payment platform designed for both online and offline shopping, offering fast, low-cost transactions using the native JCoin token. The platform supports three payment modes: SurePay (tokenized checkout), QuickPay (QR code–based instant pay), and Fiat via credit/debit card gateways. Merchants can generate order-specific QR codes, and users can manage purchases, track daily transactions, and redeem loyalty points once thresholds are met. Built to reduce transaction fees and simplify payment processes, SurePay combines token-based rewards with seamless merchant integration, making it ideal for small-amount digital commerce.",
@@ -510,35 +566,5 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       tags:["Solidity", "Ethereum Smart Contracts", "Web3.js", "Tokenization (JCoin)", "QR Code Integration", "Node.js", "JavaScript", "MetaMask", "IPFS", "Payment Gateway (Fiat) Integration", "Loyalty Program Design", "Decentralized E-commerce Solutions"],
       github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+    }
   ];  
