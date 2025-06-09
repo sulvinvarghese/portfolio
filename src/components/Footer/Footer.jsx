@@ -38,11 +38,12 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaPhone />, link: "https://twitter.com/CodingMaster6?s=09" },
-            { icon: <FaEnvelope />, link: "https://www.facebook.com/tarun.kaushik.3511041/" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/tarun-kaushik-553b441a4" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/coding_.master/" },
-            { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
+            { icon: <FaPhone />, link: "tel:+447747248399" },
+            { icon: <FaEnvelope />, link: "mailto:sulvinvarghese@gmail.com" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/sulvin-varghese-132050164/" },
+
+            // { icon: <FaInstagram />, link: "https://www.instagram.com/coding_.master/" },
+            // { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
             
           ].map((item, index) => (
             <a

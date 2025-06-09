@@ -1,38 +1,4 @@
 // Skills Section Logo's
-// import htmlLogo from './assets/tech_logo/html.png';
-// import cssLogo from './assets/tech_logo/css.png';
-// import sassLogo from './assets/tech_logo/sass.png';
-// import javascriptLogo from './assets/tech_logo/javascript.png';
-// import reactjsLogo from './assets/tech_logo/reactjs.png';
-// import angularLogo from './assets/tech_logo/angular.png';
-// import reduxLogo from './assets/tech_logo/redux.png';
-// import nextjsLogo from './assets/tech_logo/nextjs.png';
-// import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-// import gsapLogo from './assets/tech_logo/gsap.png';
-// import materialuiLogo from './assets/tech_logo/materialui.png';
-// import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-// import springbootLogo from './assets/tech_logo/springboot.png';
-// import nodejsLogo from './assets/tech_logo/nodejs.png';
-// import expressjsLogo from './assets/tech_logo/express.png';
-// import mysqlLogo from './assets/tech_logo/mysql.png';
-// import mongodbLogo from './assets/tech_logo/mongodb.png';
-// import firebaseLogo from './assets/tech_logo/firebase.png';
-// import cLogo from './assets/tech_logo/c.png';
-// import cppLogo from './assets/tech_logo/cpp.png';
-// import javaLogo from './assets/tech_logo/java.png';
-// import pythonLogo from './assets/tech_logo/python.png';
-// import typescriptLogo from './assets/tech_logo/typescript.png';
-// import gitLogo from './assets/tech_logo/git.png';
-// import githubLogo from './assets/tech_logo/github.png';
-// import vscodeLogo from './assets/tech_logo/vscode.png';
-// import postmanLogo from './assets/tech_logo/postman.png';
-// import mcLogo from './assets/tech_logo/mc.png';
-// import figmaLogo from './assets/tech_logo/figma.png';
-// import netlifyLogo from './assets/tech_logo/netlify.png';
-// import vercelLogo from './assets/tech_logo/vercel.png';
-// import postgreLogo from './assets/tech_logo/postgre.png';
-// import csharpLogo from './assets/tech_logo/csharp.png';
-
 // Languages
 import javascriptLogo from './assets/skill_logo/javascript.png';
 import pythonLogo from './assets/skill_logo/python.png';
@@ -115,6 +81,7 @@ import tailwindLogo from './assets/skill_logo/tailwind.png';
 import gitLogo from './assets/skill_logo/git.png';
 import githubLogo from './assets/skill_logo/github.png';
 import vscodeLogo from './assets/skill_logo/vscode.png';
+import jupitorLogo from './assets/skill_logo/jupitor.png';
 import jiraLogo from './assets/skill_logo/jira.png';
 import confluenceLogo from './assets/skill_logo/confluence.png';
 import newrelicLogo from './assets/skill_logo/newrelic.png';
@@ -128,9 +95,8 @@ import windowsLogo from './assets/skill_logo/windows.png';
 
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/gla_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import ustLogo from './assets/company_logo/ust.png';
+import kottackalLogo from './assets/company_logo/kottackal.png';
 
 import coventryLogo from './assets/company_logo/coventry.webp';
 import ktuLogo from './assets/company_logo/apj.webp';
@@ -138,76 +104,17 @@ import keralaLogo from './assets/company_logo/uok.png'; // Make sure this exists
 
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import SportsLogo from './assets/work_logo/sports.png';
+import PeerfundLogo from './assets/work_logo/peerfund.jpg';
+import EVHYLogo from './assets/work_logo/evhy2.png';
+import FleetLogo from './assets/work_logo/fleet.jpg';
+import ADBEventsLogo from './assets/work_logo/adb.png';
+import SurePayLogo from './assets/work_logo/surepay.jpg';
+import HeroLogo from './assets/work_logo/hero.png';
+import SmeLogo from './assets/work_logo/sme.png';
+import SecureLogo from './assets/work_logo/secure2.png';
+// Project Section Logo's
 
-
-
-// export const SkillsInfo = [
-//   {
-//     title: 'Frontend',
-//     skills: [
-//       { name: 'HTML', logo: htmlLogo },
-//       { name: 'CSS', logo: cssLogo },
-//       { name: 'SASS', logo: sassLogo },
-//       { name: 'JavaScript', logo: javascriptLogo },
-//       { name: 'React JS', logo: reactjsLogo },
-//       { name: 'Angular', logo: angularLogo },
-//       { name: 'Redux', logo: reduxLogo },
-//       { name: 'Next JS', logo: nextjsLogo },
-//       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-//       { name: 'GSAP', logo: gsapLogo },
-//       { name: 'Material UI', logo: materialuiLogo },
-//       { name: 'Bootstrap', logo: bootstrapLogo },
-//     ],
-//   },
-//   {
-//     title: 'Backend',
-//     skills: [
-//       { name: 'Springboot', logo: springbootLogo },
-//       { name: 'Node JS', logo: nodejsLogo },
-//       { name: 'Express JS', logo: expressjsLogo },
-//       { name: 'MySQL', logo: mysqlLogo },
-//       { name: 'MongoDB', logo: mongodbLogo },
-//       { name: 'Firebase', logo: firebaseLogo },
-//       { name: 'PostgreSQL', logo: postgreLogo },
-//     ],
-//   },
-//   {
-//     title: 'Languages',
-//     skills: [
-//       { name: 'C', logo: cLogo },
-//       { name: 'C++', logo: cppLogo },
-//       { name: 'Java', logo: javaLogo },
-//       { name: 'Python', logo: pythonLogo },
-//       { name: 'C-Sharp', logo: csharpLogo },
-//       { name: 'JavaScript', logo: javascriptLogo },
-//       { name: 'TypeScript', logo: typescriptLogo },
-//     ],
-//   },
-//   {
-//     title: 'Tools',
-//     skills: [
-//       { name: 'Git', logo: gitLogo },
-//       { name: 'GitHub', logo: githubLogo },
-//       { name: 'VS Code', logo: vscodeLogo },
-//       { name: 'Postman', logo: postmanLogo },
-//       { name: 'Compass', logo: mcLogo },
-//       { name: 'Vercel', logo: vercelLogo },
-//       { name: 'Netlify', logo: netlifyLogo },
-//       { name: 'Figma', logo: figmaLogo },
-//     ],
-//   },
-// ];
-
-// /*
   export const SkillsInfo = [
     {
       title: 'Languages',
@@ -243,7 +150,24 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
         { name: 'Serverless', logo: serverlessLogo }
       ],
     },
+   
     {
+      title: 'DevOps & CI/CD',
+      skills: [
+        { name: 'Git', logo: gitLogo },
+        { name: 'GitHub', logo: githubLogo },
+        { name: 'Docker', logo: dockerLogo },
+        { name: 'Jenkins', logo: jenkinsLogo },
+        { name: 'GitHub Actions', logo: githubactionsLogo },
+        { name: 'CodeBuild', logo: codebuildLogo },
+        { name: 'CodeCommit', logo: codecommitLogo },
+        { name: 'CI/CD', logo: cicdLogo },
+        { name: 'Infrastructure as Code (IaC)', logo: iacLogo },
+        { name: 'Heroku', logo: herokuLogo },
+        { name: 'Netlify', logo: herokuLogo },
+      ],
+    },
+     {
       title: 'Cloud',
       skills: [
         { name: 'AWS', logo: awsLogo },
@@ -259,22 +183,6 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
         { name: 'CloudFormation', logo: cloudformationLogo },
         { name: 'CloudWatch', logo: cloudwatchLogo },
         { name: 'Batch', logo: batchLogo },
-      ],
-    },
-    {
-      title: 'DevOps & CI/CD',
-      skills: [
-        { name: 'Git', logo: gitLogo },
-        { name: 'GitHub', logo: githubLogo },
-        { name: 'Docker', logo: dockerLogo },
-        { name: 'Jenkins', logo: jenkinsLogo },
-        { name: 'GitHub Actions', logo: githubactionsLogo },
-        { name: 'CodeBuild', logo: codebuildLogo },
-        { name: 'CodeCommit', logo: codecommitLogo },
-        { name: 'CI/CD', logo: cicdLogo },
-        { name: 'Infrastructure as Code (IaC)', logo: iacLogo },
-        { name: 'Heroku', logo: herokuLogo },
-        { name: 'Netlify', logo: herokuLogo },
       ],
     },
     {
@@ -302,7 +210,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
         { name: 'MongoDB', logo: mongodbLogo },
         { name: 'PostgreSQL', logo: postgresqlLogo },
         { name: 'MySQL', logo: mysqlLogo },
-        { name: 'SQLite', logo: sqliteLogo },
+        // { name: 'SQLite', logo: sqliteLogo },
         { name: 'DynamoDB', logo: dynamodbLogo },
         { name: 'OrbitDB', logo: orbitdbLogo },
       ],
@@ -320,7 +228,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       skills: [
 
         { name: 'VS Code', logo: vscodeLogo },
-        { name: 'Jupyter Notebook', logo: vscodeLogo },
+        { name: 'Jupyter Notebook', logo: jupitorLogo },
         { name: 'New Relic', logo: newrelicLogo },
       ],
     },
@@ -350,7 +258,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
   export const experiences = [
      {
     id: 0,
-    img: webverseLogo,
+    img: ustLogo,
     role: "Software Engineer",
     company: "UST Global",
     date: "June 2022 - Sept 2023",
@@ -375,7 +283,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
   },
   {
     id: 1,
-    img: agcLogo,
+    img: kottackalLogo,
     role: "Blockchain Consultant",
     company: "Kottackal Business Solutions Pvt Ltd.",
     date: "July 2020 - April 2023",
@@ -399,7 +307,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       },
       {
         id: 2,
-        img: newtonschoolLogo,
+        img: kottackalLogo,
         role: "Associate Consultant",
         company: "Kottackal Business Solutions Pvt Ltd.",
         date: "January 2019 - August 2020",
@@ -422,7 +330,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
       },
       {
         id: 3,
-        img: newtonschoolLogo,
+        img: kottackalLogo,
         role: "Consultant Trainee",
         company: "Kottackal Business Solutions Pvt Ltd.",
         date: "July 2018 - January 2019",
@@ -480,7 +388,6 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
   ];
 
 
-
   
   export const projects = [
 
@@ -489,82 +396,98 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
     title: "Hero Digital Passport",
     description:
       "The Hero Digital Passport is a production-ready blockchain-integrated system built for Hero MotoCorp to track the complete lifecycle of motorcycles, including manufacturing details, ownership transfers, service history, and maintenance events. As a backend engineer, I designed scalable APIs, event handling flows, and off-chain data sync mechanisms using AWS services like Lambda, S3, and DynamoDB. The platform integrates with AWS Managed Blockchain (Hyperledger Fabric) to immutably log all critical events. It provides real-time access to vehicle records for stakeholders like dealerships, service centers, and insurance providers. My work focused on secure RESTful API development, dynamic data mapping to blockchain chaincode, and optimization of off-chain data storage and retrieval.",
-    image: githubdetLogo, // Replace with Hero's actual logo if available
+    image: HeroLogo, // Replace with Hero's actual logo if available
     tags: [
-      "Node.js",
-      "AWS Lambda",
-      "AWS S3",
-      "AWS DynamoDB",
-      "Hyperledger Fabric",
-      "AWS Managed Blockchain",
-      "API Gateway",
-      "CI/CD (GitHub Actions, Jenkins)",
-      "Blockchain Integration",
-      "Vehicle Lifecycle Tracking",
-      "Event-driven Architecture"
-    ],
+  "Node.js",
+  "AWS Lambda",
+  "DynamoDB",
+  "Hyperledger Fabric",
+  "Blockchain Integration"
+],
     github: "Proprietary - Code not available",
     webapp: "http://hdp-frontend-dev.s3-website-ap-southeast-1.amazonaws.com/login"
   },
-
+  
     {
       id: 1,
+      title: "AI-Driven Cybersecurity Solutions for SMEs",
+      description:
+        "Designed and evaluated AI-enhanced cybersecurity solutions for small to medium-sized enterprises (SMEs) using open-source tools in a simulated network environment. The system integrated tools like Suricata, Elastic Stack, and custom machine learning models within Docker containers to monitor and detect various cyberattack scenarios. Results showed that AI integration significantly improved threat detection and response accuracy, while also identifying usability challenges in complex tools. The project offers practical insights into deploying cost-effective, intelligent security systems for organizations with limited IT resources.",
+      image: SmeLogo,
+      tags: ["Cybersecurity", "AI", "Suricata", "Elastic Stack", "Machine Learning", "Docker", "Intrusion Detection"],
+      github: "https://github.com/sulvinvarghese/7030CEM-individual-cybersecurity-project",
+      webapp: "https://vimeo.com/1091670749/901f6535fe?ts=0&share=copy",
+    },
+   
+    {
+      id: 2,
+      title: "Secure Online System Design",
+      description:
+        "Designed and developed a secure web-based academic management system for an educational institute as part of my MSc in Cyber Security. The platform includes modules for user registration, course enrollment, marks management, and resource handling, with robust security controls such as JWT authentication, role-based access, input validation, and encrypted data storage. Developed using Node.js, MongoDB, and Express, with portions of the backend generated and refined using generative AI. Formal methods like state machines and Petri nets were applied to validate system behavior. The code was tested with unit and integration tests and deployed on Render.com.",
+      image: SecureLogo,
+      tags: ["Cybersecurity", "Node.js", "JWT Authentication", "Input Validation", "Encryption", "Formal Methods"],      github: "https://github.com/sulvinvarghese/securedesign/tree/main",
+      webapp: "https://github.com/sulvinvarghese/securedesign/blob/main/ABC-Education.postman_collection.json",
+      //https://securedesign.onrender.com
+    },
+
+    {
+      id: 3,
       title: "Adventure Sports",
       description:
         "The Adventure Sports App is a decentralized, blockchain-powered video platform for streaming adventure sports content. It enables sports organizations to create channels and upload videos to IPFS, with metadata and access managed via Ethereum smart contracts. Users can subscribe to channels using tokens, watch videos after ad playback, and engage in real-time chat or video calls with content providers. Advertisers can target users by sport type and location. Built with Solidity, Truffle, IPFS, and MetaMask, the app ensures secure, transparent transactions and direct interaction between users, content creators, and advertisers.",
-      image: githubdetLogo,
-      tags: ["Solidity", "Ethereum Smart Contracts", "Truffle", "IPFS", "Web3.js", "MetaMask", "Node.js", "JavaScript", "HTML/CSS", "Blockchain Development", "Decentralized Applications (DApps)", "Smart Contract Integration", "Real-time Communication (Chat & Video Call)"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "PeerFund",
-      description:
-        "Peer Fund Bonds is a decentralized asset-backed bond issuance and investment platform built on blockchain. It enables companies and banks to issue bonds directly to investors without the need for third-party approvals. Each bond is backed by due diligence and detailed offer documents outlining potential risks. Investors can explore available projects, invest using smart contracts, and track their holdings transparently. The platform simplifies traditional bond processes while ensuring trust through secure, tamper-proof blockchain records.",
-      image: csprepLogo,
-      tags: ["Solidity", "Ethereum Smart Contracts", "Truffle", "IPFS", "Web3.js", "MetaMask", "Node.js", "JavaScript", "Blockchain Development", "Tokenized Assets", "Decentralized Finance (DeFi)"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
-    {
-      id: 3,
-      title: "EV-HY Charging ",
-      description:
-        "EV-HY Charging is a blockchain-based platform that enables electric and hydrogen vehicle (EV/HY) drivers to subscribe to charging packages, locate nearby charging stations, make payments via crypto-tokens or NFC, and track charging activity in real time. The system supports both resident and visitor user profiles and automates subscription handling, third-party fee distribution, and session reporting through Ethereum smart contracts. Users interact via a mobile-friendly interface integrated with live station mapping, while energy providers and stakeholders manage offerings and revenue splits securely on-chain.",
-      image: movierecLogo,
-      tags:["Solidity", "Ethereum Smart Contracts", "Web3.js", "IPFS", "MetaMask", "NFC Integration", "JavaScript", "Node.js", "Blockchain Payments", "Map-based Navigation", "Decentralized Application (DApp) Design"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      image: SportsLogo,
+      tags: ["Solidity", "Ethereum Smart Contracts", "Truffle", "IPFS", "Web3.js", "MetaMask", "Node.js", "JavaScript", "HTML/CSS", "Blockchain Development", "DApps"],
+      github: "https://github.com/sulvinvarghese/Adventure-Sports",
+      webapp: "https://vimeo.com/1091670749/901f6535fe?ts=0&share=copy",
     },
     {
       id: 4,
-      title: "GreenPoint Fleet",
+      title: "PeerFund",
       description:
-        "GreenPoint Fleet is a blockchain-enabled electric vehicle (EV) charging and fleet management platform tailored for commercial and organizational fleets. It allows users to register vehicles, join fleet circles, locate nearby charging stations, and initiate charging sessions through a web app. Fleet Owners can approve driver requests, manage group charging activity, and oversee payments from a shared fleet wallet. All transactions and charging data are handled via Ethereum smart contracts using ERC20 tokens, with automatic revenue splitting among stakeholders such as EV companies and third parties. The platform includes real-time map navigation, filterable reports by user, company, or country, and administrative controls for managing vehicle types, fuel categories, and geographic zones, providing an integrated, scalable solution for coordinated EV fleet operations.",
-      image: npmLogo,
-      tags:["Solidity", "Ethereum Smart Contracts", "Truffle", "Web3.js", "IPFS", "MetaMask", "Node.js", "JavaScript", "Blockchain Payments", "Fleet Coordination", "ERC20 Token Economy", "Map APIs", "Multi-User Authorization", "DApp Architecture"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "Peer Fund Bonds is a decentralized asset-backed bond issuance and investment platform built on blockchain. It enables companies and banks to issue bonds directly to investors without the need for third-party approvals. Each bond is backed by due diligence and detailed offer documents outlining potential risks. Investors can explore available projects, invest using smart contracts, and track their holdings transparently. The platform simplifies traditional bond processes while ensuring trust through secure, tamper-proof blockchain records.",
+      image: PeerfundLogo,
+      tags: ["Solidity", "Ethereum Smart Contracts", "Truffle", "IPFS", "Web3.js", "MetaMask", "Node.js", "JavaScript", "Blockchain", "Tokenized Assets"],
+      github: "https://github.com/sulvinvarghese/PeerFund-Bonds",
+      webapp: "https://vimeo.com/1091671641/d3078600e7?ts=0&share=copy",
     },
     {
       id: 5,
-      title: "ADB Payment Events",
+      title: "EV-HY Charging ",
       description:
-        "ADB Pay Events is a blockchain-based expense reimbursement system tailored for organizational events. It enables employees and participants to register for events and submit claims for expense reimbursement, which are processed securely through a multisignature approval mechanism involving both Event Owners and Finance Managers. Claims are recorded on the Ethereum blockchain, and funds are disbursed in cryptocurrency upon dual approval. The platform ensures transparency, traceability, and controlled fund management, with email notifications for claim status updates and a full transaction history accessible to users.",
-      image: taskremLogo,
-      tags:["Solidity", "Ethereum Smart Contracts", "Multisig Wallet Logic", "Web3.js", "Node.js", "MetaMask", "IPFS", "EmailJS Integration", "JavaScript", "Blockchain-based Reimbursement Flow", "Decentralized Claims Processing"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+        "EV-HY Charging is a blockchain-based platform that enables electric and hydrogen vehicle (EV/HY) drivers to subscribe to charging packages, locate nearby charging stations, make payments via crypto-tokens or NFC, and track charging activity in real time. The system supports both resident and visitor user profiles and automates subscription handling, third-party fee distribution, and session reporting through Ethereum smart contracts. Users interact via a mobile-friendly interface integrated with live station mapping, while energy providers and stakeholders manage offerings and revenue splits securely on-chain.",
+      image: EVHYLogo,
+      tags:["Solidity", "Ethereum", "Web3.js", "IPFS", "MetaMask", "NFC Integration", "JavaScript", "Node.js", "Blockchain Payments", "Map-based Navigation", "DApp"],
+      github: "https://github.com/sulvinvarghese/EV-HY-Charging",
+      webapp: "https://vimeo.com/1091671991/91a565dc46?ts=0&share=copy",
     },
     {
       id: 6,
+      title: "GreenPoint Fleet",
+      description:
+        "GreenPoint Fleet is a blockchain-enabled electric vehicle (EV) charging and fleet management platform tailored for commercial and organizational fleets. It allows users to register vehicles, join fleet circles, locate nearby charging stations, and initiate charging sessions through a web app. Fleet Owners can approve driver requests, manage group charging activity, and oversee payments from a shared fleet wallet. All transactions and charging data are handled via Ethereum smart contracts using ERC20 tokens, with automatic revenue splitting among stakeholders such as EV companies and third parties. The platform includes real-time map navigation, filterable reports by user, company, or country, and administrative controls for managing vehicle types, fuel categories, and geographic zones.",
+      image: FleetLogo,
+      tags:["Solidity", "Ethereum", "Truffle", "Web3.js", "IPFS", "MetaMask", "Node.js", "Blockchain Payments", "Fleet Coordination", "ERC20 Token", "Map APIs"],
+      github: "https://github.com/sulvinvarghese/GreenPoint-Fleet",
+      webapp: "https://vimeo.com/1091672259/1688d91357?ts=0&share=copy",
+    },
+    {
+      id: 7,
+      title: "ADB Payment Events",
+      description:
+        "ADB Pay Events is a blockchain-based expense reimbursement system tailored for organizational events. It enables employees and participants to register for events and submit claims for expense reimbursement, which are processed securely through a multisignature approval mechanism involving both Event Owners and Finance Managers. Claims are recorded on the Ethereum blockchain, and funds are disbursed in cryptocurrency upon dual approval. The platform ensures transparency, traceability, and controlled fund management, with email notifications for claim status updates and a full transaction history accessible to users.",
+      image: ADBEventsLogo,
+      tags:["Solidity", "Multisig Wallet", "Web3.js", "Node.js",  "EmailJS Integration", "Blockchain-based Reimbursement Flow", "Decentralized Claims Processing"],
+      github: "https://github.com/sulvinvarghese/ADB-Payment--Event",
+      webapp: "https://vimeo.com/1091672665/ed7bfa80d5?ts=0&share=copy",
+    },
+    {
+      id: 8,
       title: "Sure Payment",
       description:
         "SurePay is a blockchain-based multi-mode payment platform designed for both online and offline shopping, offering fast, low-cost transactions using the native JCoin token. The platform supports three payment modes: SurePay (tokenized checkout), QuickPay (QR code–based instant pay), and Fiat via credit/debit card gateways. Merchants can generate order-specific QR codes, and users can manage purchases, track daily transactions, and redeem loyalty points once thresholds are met. Built to reduce transaction fees and simplify payment processes, SurePay combines token-based rewards with seamless merchant integration, making it ideal for small-amount digital commerce.",
-      image: webverLogo,
-      tags:["Solidity", "Ethereum Smart Contracts", "Web3.js", "Tokenization (JCoin)", "QR Code Integration", "Node.js", "JavaScript", "MetaMask", "IPFS", "Payment Gateway (Fiat) Integration", "Loyalty Program Design", "Decentralized E-commerce Solutions"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      image: SurePayLogo,
+      tags:["Solidity", "Ethereum ", "Web3.js", "Tokenization ", "QR Code Integration", "Node.js", "Payment Gateway Integration", "Loyalty Program "],
+      github: "https://github.com/sulvinvarghese/Sure-Pay",
+      webapp: "https://vimeo.com/1091673056/cc17f304db?ts=0&share=copy",
     }
   ];  
