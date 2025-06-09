@@ -46,6 +46,7 @@ import iamLogo from './assets/skill_logo/iam.png';
 import cloudwatchLogo from './assets/skill_logo/cloudwatch.png';
 import cloudfrontLogo from './assets/skill_logo/cloudfront.png';
 import herokuLogo from './assets/skill_logo/heroku.png';
+import netlifyLogo from './assets/skill_logo/netlify.png';
 import dockerLogo from './assets/skill_logo/docker.png';
 import githubactionsLogo from './assets/skill_logo/githubactions.png';
 import jenkinsLogo from './assets/skill_logo/jenkins.png';
@@ -81,7 +82,7 @@ import tailwindLogo from './assets/skill_logo/tailwind.png';
 import gitLogo from './assets/skill_logo/git.png';
 import githubLogo from './assets/skill_logo/github.png';
 import vscodeLogo from './assets/skill_logo/vscode.png';
-import jupitorLogo from './assets/skill_logo/jupitor.png';
+import jupyterLogo from './assets/skill_logo/jupyter.png';
 import jiraLogo from './assets/skill_logo/jira.png';
 import confluenceLogo from './assets/skill_logo/confluence.png';
 import newrelicLogo from './assets/skill_logo/newrelic.png';
@@ -107,12 +108,12 @@ import keralaLogo from './assets/company_logo/uok.png'; // Make sure this exists
 import SportsLogo from './assets/work_logo/sports.png';
 import PeerfundLogo from './assets/work_logo/peerfund.jpg';
 import EVHYLogo from './assets/work_logo/evhy2.png';
-import FleetLogo from './assets/work_logo/fleet.jpg';
+import FleetLogo from './assets/work_logo/fleet.png';
 import ADBEventsLogo from './assets/work_logo/adb.png';
 import SurePayLogo from './assets/work_logo/surepay.jpg';
 import HeroLogo from './assets/work_logo/hero.png';
 import SmeLogo from './assets/work_logo/sme.png';
-import SecureLogo from './assets/work_logo/secure2.png';
+import SecureLogo from './assets/work_logo/secure.png';
 // Project Section Logo's
 
   export const SkillsInfo = [
@@ -130,8 +131,9 @@ import SecureLogo from './assets/work_logo/secure2.png';
       skills: [
         { name: 'JIRA', logo: jiraLogo },
         { name: 'Confluence', logo: confluenceLogo },
-        { name: 'Agile Development', logo: agileLogo },
         { name: 'Scrum', logo: scrumLogo },
+        { name: 'Agile Development', logo: agileLogo },
+
       ],
     },
     {
@@ -164,7 +166,7 @@ import SecureLogo from './assets/work_logo/secure2.png';
         { name: 'CI/CD', logo: cicdLogo },
         { name: 'Infrastructure as Code (IaC)', logo: iacLogo },
         { name: 'Heroku', logo: herokuLogo },
-        { name: 'Netlify', logo: herokuLogo },
+        { name: 'Netlify', logo: netlifyLogo },
       ],
     },
      {
@@ -216,7 +218,7 @@ import SecureLogo from './assets/work_logo/secure2.png';
       ],
     },
     {
-      title: 'Testing & Quality Assurance',
+      title: 'Testing Frameworks',
       skills: [
         { name: 'Mocha', logo: mochaLogo },
         { name: 'Chai', logo: chaiLogo },
@@ -224,11 +226,11 @@ import SecureLogo from './assets/work_logo/secure2.png';
       ],
     },
     {
-      title: 'Development & Monitoring Tools',
+      title: 'Development Tools',
       skills: [
 
         { name: 'VS Code', logo: vscodeLogo },
-        { name: 'Jupyter Notebook', logo: jupitorLogo },
+        { name: 'Jupyter Notebook', logo: jupyterLogo },
         { name: 'New Relic', logo: newrelicLogo },
       ],
     },
@@ -416,7 +418,7 @@ import SecureLogo from './assets/work_logo/secure2.png';
       image: SmeLogo,
       tags: ["Cybersecurity", "AI", "Suricata", "Elastic Stack", "Machine Learning", "Docker", "Intrusion Detection"],
       github: "https://github.com/sulvinvarghese/7030CEM-individual-cybersecurity-project",
-      webapp: "https://vimeo.com/1091670749/901f6535fe?ts=0&share=copy",
+      webapp: "https://drive.google.com/file/d/1W6h-UqGEMzpD1fKAcOhH3BZ84V_58jeb/view?usp=sharing",
     },
    
     {
